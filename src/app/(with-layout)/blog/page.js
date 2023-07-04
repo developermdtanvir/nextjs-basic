@@ -15,7 +15,7 @@ const Blog = async () => {
     return (
         <div className="wraper">
             {
-                blog.map(item => <div>
+                blog.map(item => <div key={item.id}>
                     <h1>{item.title}</h1>
                     <Link href={`/blog/${item.id}`}><button>{item.id}</button></Link>
                 </div>)

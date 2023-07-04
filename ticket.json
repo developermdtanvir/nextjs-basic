@@ -1,0 +1,31 @@
+[
+    {
+      "title": "ONE TIME TICKET",
+      "button": "BUY NOW",
+      "price": "$50",
+      "img":"https://i.ibb.co/fCSVrFV/ticket.png",
+      "id": "TICKET001"
+    },
+    {
+      "title": "ONE DAY PASS",
+      "button": "BUY NOW",
+      "price": "$15",
+      "img":"https://i.ibb.co/TWjBcWN/ticket-2.png",
+      "id": "TICKET002"
+    },
+    {
+      "title": "MONTHLY PASS",
+      "button": "BUY NOW",
+      "img":"https://i.ibb.co/tQZwJCc/ticket-3.png  ",
+      "price": "$75",
+      "id": "TICKET003"     
+    },
+    {
+      "title": "ANNUAL PASS",
+      "button": "BUY NOW",
+      "price": "$30",
+      "id": "TICKET004",
+      "img":"https://i.ibb.co/Hg2LG7P/ticket-4.png"
+    }
+  ]
+  
