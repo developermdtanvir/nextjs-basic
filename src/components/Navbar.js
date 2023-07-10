@@ -17,6 +17,10 @@ const navlink = [
         path: '/contact',
         name: 'Contact'
     },
+    {
+        path: '/product',
+        name: 'Product'
+    }
 ]
 
 
