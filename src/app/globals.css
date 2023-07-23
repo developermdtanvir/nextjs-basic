@@ -45,3 +45,7 @@ body {
     left: 0px;
     background-color: rgba(0,0,0,0.50)
 }
+
+.background_image{
+  background-image: url('./../assets/images/learn_with_sumit_bg.svg');
+}
