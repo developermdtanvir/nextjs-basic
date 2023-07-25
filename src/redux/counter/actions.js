@@ -1,4 +1,4 @@
-const { INCREMENT, DECREMENT } = require("./actionCounter");
+import { DECREMENT, INCREMENT } from "./actionType";
 
 export const increment = (value) => {
   return {

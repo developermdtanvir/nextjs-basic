@@ -1,5 +1,5 @@
 "use client";
-import Counter from "@/components/Counter";
+import HookCounter from "@/components/HookCounter";
 
 const Redux = () => {
   return (
@@ -7,7 +7,7 @@ const Redux = () => {
       <div>
         <h1 class=" text-3xl font-bold">Simple Counter Application</h1>
       </div>
-      <Counter />
+      <HookCounter />
     </main>
   );
 };
