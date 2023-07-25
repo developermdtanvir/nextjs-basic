@@ -2,7 +2,7 @@ import { decrement, increment } from "@/redux/counter/actions";
 import { useDispatch, useSelector } from "react-redux";
 
 const HookCounter = ({}) => {
-  const count = useSelector((state) => state.value);
+  const count = useSelector((state) => state.counter.value);
 
   const dispatch = useDispatch();
 
@@ -15,23 +15,23 @@ const HookCounter = ({}) => {
   };
 
   return (
-    <div class=" w-96 m-auto h-40 bg-white rounded-md flex justify-center items-center">
+    <div className=" w-96 m-auto h-40 bg-white rounded-md flex justify-center items-center">
       <div>
-        <p id="counter" class="text-center text-black  text-2xl font-bold">
+        <p id="counter" className="text-center text-black  text-2xl font-bold">
           {count}
         </p>
-        <div class=" flex justify-center items-center space-x-3">
+        <div className=" flex justify-center items-center space-x-3">
           <button
-            onClick={() => incrementHandler(10)}
+            onClick={() => incrementHandler()}
             id="incriment"
-            class="py-2 px-4 bg-sky-400 rounded-md text-white font-semibold"
+            className="py-2 px-4 bg-sky-400 rounded-md text-white font-semibold"
           >
             Incriment
           </button>
           <button
-            onClick={() => decrementHandler(10)}
+            onClick={() => decrementHandler()}
             id="decriment"
-            class="py-2 px-4 bg-rose-500 rounded-md text-white font-semibold"
+            className="py-2 px-4 bg-rose-500 rounded-md text-white font-semibold"
           >
             Decriment
           </button>
